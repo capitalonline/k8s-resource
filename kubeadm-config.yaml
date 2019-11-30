@@ -1,0 +1,9 @@
+
+apiVersion: kubeadm.k8s.io/v1beta1
+kind: ClusterConfiguration
+kubernetesVersion: v1.16.3
+controlPlaneEndpoint: "106.3.146.70:6443"
+networking:
+    podSubnet: "172.33.0.0/16"
+imageRepository: registry.aliyuncs.com/google_containers
+
