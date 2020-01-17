@@ -16,7 +16,7 @@ spec:
         app: grafana
     spec:
       containers:
-      - image: grafana/grafana:6.4.3
+      - image: registry-bj.capitalonline.net/cck/grafana/grafana:6.5.3-cds0.1
         name: grafana
         ports:
         - containerPort: 3000
